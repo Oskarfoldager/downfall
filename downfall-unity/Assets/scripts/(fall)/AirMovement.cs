@@ -7,6 +7,7 @@ public class AirMovement : MonoBehaviour
     public Rigidbody2D rb2d;
     public Vector2 leftmovement;
     public Vector2 rightmovement;
+    public float Movementspeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class AirMovement : MonoBehaviour
     {
        if(Input.GetKey(KeyCode.A))
        {
-        rb2d.AddForce(leftmovement,ForceMode2D.Impulse);
+        rb2d.AddForce(leftmovement,ForceMode2D.Impulse) ;
        } 
               if(Input.GetKey(KeyCode.D))
        {

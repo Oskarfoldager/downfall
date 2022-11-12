@@ -5,7 +5,8 @@ using UnityEngine;
 public class Bounce : MonoBehaviour
 {
     Rigidbody2D rb;
-    Vector3 LastVelocity;
+    public Vector3 LastVelocity;
+    public float lives = 100;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,10 @@ public class Bounce : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Debug.Log("and it is "+ LastVelocity.y);
         var speed = LastVelocity.magnitude;
         var direction = Vector3.Reflect(LastVelocity.normalized, collision.contacts[0].normal);
         rb.velocity = direction * Mathf.Max(speed, 0f);
+        lives -= Mathf.Sqrt(LastVelocity.y*LastVelocity.y);
     }
 }
