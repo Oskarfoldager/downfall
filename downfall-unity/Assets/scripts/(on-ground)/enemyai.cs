@@ -38,8 +38,8 @@ public class enemyai : MonoBehaviour
     {
         if (Time.time > nextactiontime)
         {
-
-            nextactiontime += period;
+            Debug.Log("attacking");
+            nextactiontime += attackspeed;
         }
     }
 }
