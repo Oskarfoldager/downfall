@@ -2,17 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class spawner : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject playerr;
+    public GameObject enemy1;
+    public GameObject enemy2;
+    public GameObject enemy3;
+    public float period = 20f;
+    private float nextactiontime = 0;
 
-    // Update is called once per frame
+    // Start is called before the first frame update
     void Update()
     {
-        
+        List<GameObject> enemys = new List<GameObject>() { enemy1, enemy2, enemy3 };
+        if (Time.time > nextactiontime)
+        {
+            Debug.Log("Attempting to spawn enemy");
+            GameObject thisproj = Instantiate(enemys[Random.Range(0, 3)], transform.position, transform.rotation);
+            nextactiontime += period;
+        }
+
+
     }
 }
