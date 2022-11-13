@@ -9,10 +9,11 @@ public class enemyattackpunch : MonoBehaviour
     public GameObject weapon;
     public enemyai enemyai;
     public Vector3 offset;
-
+    Animator animator;
     // Start is called before the first frame update
     private void Start()
     {
+        animator = GetComponent<Animator>();
         nextactiontime = Time.time + period;
     }
     void Update()
@@ -41,6 +42,7 @@ public class enemyattackpunch : MonoBehaviour
     }
     void punch()
     {
+        animator.Play("StabbermanAttack");
         GameObject thisproj = Instantiate(weapon, transform.position + offset, transform.rotation);
         thisproj.GetComponent<bulletmotion>().enemyai = enemyai;
     }

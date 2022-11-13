@@ -34,20 +34,17 @@ public class enemyattackshoot : MonoBehaviour
             if (enemyai.isattacking)
             {
                 shoot();
-                animator.Play("TankShoot");
                 nextactiontime += period;
                 Debug.Log("shooting");
             }   
-                else if(!enemyai.isattacking)
-                {
-                    animator.Play("TankDrive");
-                }
-            
+                
             nextactiontime += period;
         }
     }
     void shoot()
     {
+        animator.Play("Shootershot"); 
+        animator.Play("TankShoot");
         GameObject thisproj = Instantiate(bullet, transform.position + offset, transform.rotation);
         thisproj.GetComponent<bulletmotion>().enemyai = enemyai;
     }
