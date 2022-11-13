@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class enemyattackshoot : MonoBehaviour
 {
+    Animator animator;
     public float period = 20f;
     private float nextactiontime;
     public GameObject bullet;
@@ -14,6 +15,7 @@ public class enemyattackshoot : MonoBehaviour
     private void Start()
     {
         nextactiontime = Time.time + period;
+        animator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -29,10 +31,16 @@ public class enemyattackshoot : MonoBehaviour
         {
             if (enemyai.isattacking)
             {
+               animator.Play("TankShoot");
                 shoot();
                 nextactiontime += period;
                 Debug.Log("shooting");
-            }
+            }   
+                else if(!enemyai.isattacking)
+                {
+                    animator.Play("TankDrive");
+                }
+            
             nextactiontime += period;
         }
     }
