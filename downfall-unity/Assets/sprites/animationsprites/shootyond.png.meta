@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8f6d25e7c6777124aa34239c45c790bb
+guid: 7c08d440b8496b04b970e893b7a70ff3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,253 +105,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: szspr_0
+      name: shootyond_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 5
-        width: 430
-        height: 308
+        x: 200
+        y: 89
+        width: 257
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9f2910dc9f2192479db8aeebe6e253e
-      internalID: 373521286
+      spriteID: 8c807ff73830aae4b82a00c0d8fb89ca
+      internalID: 1786782169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_1
+      name: shootyond_1
       rect:
         serializedVersion: 2
-        x: 509
-        y: 5
-        width: 434
-        height: 308
+        x: 712
+        y: 89
+        width: 255
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79c341cbe1553c34183dc32e49e187e2
-      internalID: 774982756
+      spriteID: 96e8f0ed3b3cc4547bd353493bd5ad2d
+      internalID: -890081034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_2
+      name: shootyond_2
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 5
-        width: 434
-        height: 308
+        x: 1224
+        y: 89
+        width: 256
+        height: 298
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b3c5b361c9f06f4690f1fc56b44f8ea
-      internalID: 2141256172
+      spriteID: 0b291252e54c31c49857e9f66b827aeb
+      internalID: 551848421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_3
+      name: shootyond_3
       rect:
         serializedVersion: 2
-        x: 1532
-        y: 5
-        width: 434
-        height: 302
+        x: 1737
+        y: 89
+        width: 255
+        height: 298
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: def699f16f085b44693fd56aa1e189f5
-      internalID: 1198181307
+      spriteID: 622395e78c3b8724ca0c31048bbf4272
+      internalID: 1637473506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_4
+      name: shootyond_4
       rect:
         serializedVersion: 2
-        x: 2045
-        y: 5
-        width: 434
-        height: 302
+        x: 2247
+        y: 89
+        width: 257
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05286e8ec75bef443af5e8f6f5761fb1
-      internalID: -1228983924
+      spriteID: 379b7838f9bbd844698bddabfdd61ddb
+      internalID: 674366841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_5
+      name: shootyond_5
       rect:
         serializedVersion: 2
-        x: 2558
-        y: 5
-        width: 434
-        height: 302
+        x: 2761
+        y: 89
+        width: 256
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe159649ebf571a418adc8c2e67f8b38
-      internalID: 783327094
+      spriteID: a25c286ae24d7d64786aa6fa70947eb9
+      internalID: 328961752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_6
+      name: shootyond_6
       rect:
         serializedVersion: 2
-        x: 3068
-        y: 5
-        width: 434
-        height: 299
+        x: 3271
+        y: 89
+        width: 257
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4490665c955bd254e8a7b170d7d53ff1
-      internalID: -149243546
+      spriteID: c766f77dd00a1df489fd3fc81e658d4f
+      internalID: 1900581424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_7
+      name: shootyond_7
       rect:
         serializedVersion: 2
-        x: 3581
-        y: 5
-        width: 434
-        height: 299
+        x: 3785
+        y: 89
+        width: 256
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d078b521d736f7429b54190c23c7161
-      internalID: 943755057
+      spriteID: f4b7076bc0a21924d8a873e8d52e32da
+      internalID: -884187989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_8
+      name: shootyond_8
       rect:
         serializedVersion: 2
-        x: 4094
-        y: 5
-        width: 434
-        height: 299
+        x: 4295
+        y: 89
+        width: 257
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fca20faf7837c41408e122820eaa26fb
-      internalID: -73383868
+      spriteID: ca95514de147caa45a46519a64c7a6ae
+      internalID: 815874261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_9
+      name: shootyond_9
       rect:
         serializedVersion: 2
-        x: 4604
-        y: 5
-        width: 434
-        height: 302
+        x: 4808
+        y: 89
+        width: 257
+        height: 298
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7749debbc1dd62b4f97f4442ad1dc904
-      internalID: 109864702
+      spriteID: eab8a24bf211b4046a7e531d6b67f48d
+      internalID: 1375097233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_10
+      name: shootyond_10
       rect:
         serializedVersion: 2
-        x: 5117
-        y: 5
-        width: 434
-        height: 302
+        x: 5319
+        y: 89
+        width: 256
+        height: 298
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29a391522b00df94587641b5dec3cca6
-      internalID: 613027380
+      spriteID: dec18b36068ac684ea2a5d2f4ceba99e
+      internalID: 1173733883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: szspr_11
+      name: shootyond_11
       rect:
         serializedVersion: 2
-        x: 5630
-        y: 5
-        width: 444
-        height: 302
+        x: 5832
+        y: 89
+        width: 257
+        height: 295
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60fa0ca785d233d4988126f0d74f1c44
-      internalID: -1419247274
+      spriteID: 4ca2b8fa2a9e04443aa4bd26753f459e
+      internalID: 2085371918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shootyond_12
+      rect:
+        serializedVersion: 2
+        x: 6343
+        y: 89
+        width: 256
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff7bfa90ec5cbf4eb701494233dabca
+      internalID: 1995437109
       vertices: []
       indices: 
       edges: []
@@ -367,18 +388,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      szspr_5: 783327094
-      szspr_11: -1419247274
-      szspr_6: -149243546
-      szspr_0: 373521286
-      szspr_2: 2141256172
-      szspr_1: 774982756
-      szspr_3: 1198181307
-      szspr_4: -1228983924
-      szspr_7: 943755057
-      szspr_8: -73383868
-      szspr_10: 613027380
-      szspr_9: 109864702
+      shootyond_2: 551848421
+      shootyond_12: 1995437109
+      shootyond_10: 1173733883
+      shootyond_11: 2085371918
+      shootyond_1: -890081034
+      shootyond_3: 1637473506
+      shootyond_5: 328961752
+      shootyond_7: -884187989
+      shootyond_4: 674366841
+      shootyond_0: 1786782169
+      shootyond_8: 815874261
+      shootyond_6: 1900581424
+      shootyond_9: 1375097233
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
