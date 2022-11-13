@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/on-ground.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/fall.unity
+    guid: 5189217bed040df449f3461f373c6664
+  - enabled: 1
+    path: Assets/Scenes/main-menu.unity
+    guid: 13594db575e67c5429795a2122c6808c
+  - enabled: 1
+    path: Assets/Scenes/controls.unity
+    guid: df0c3cfc95ffb64448f78aa8d1381ad1
+  - enabled: 1
+    path: Assets/Scenes/levels.unity
+    guid: c2a48b6e8553cdc409dda4ecafdf8461
   m_configObjects: {}
