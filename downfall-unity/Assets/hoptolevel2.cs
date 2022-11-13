@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class hoptolevel1 : MonoBehaviour
+public class hoptolevel2 : MonoBehaviour
 {
-    public void hopto1()
+    public void hopto2()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 }
