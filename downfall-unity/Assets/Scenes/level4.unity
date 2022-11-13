@@ -7532,7 +7532,7 @@ GameObject:
   - component: {fileID: 1923587605}
   - component: {fileID: 1923587604}
   - component: {fileID: 1923587603}
-  - component: {fileID: 1923587602}
+  - component: {fileID: 1923587606}
   m_Layer: 3
   m_Name: trigger
   m_TagString: Untagged
@@ -7540,21 +7540,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1923587602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923587601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8742727bf3c446a47946189be281359e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Flyver: {fileID: 0}
-  speed: 0
-  bothit: 0
 --- !u!114 &1923587603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7611,6 +7596,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1923587606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923587601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240475587195a2948a38d6582b107b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2011768509
 GameObject:
   m_ObjectHideFlags: 0
