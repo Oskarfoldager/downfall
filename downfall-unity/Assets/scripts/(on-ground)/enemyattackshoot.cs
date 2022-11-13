@@ -31,8 +31,8 @@ public class enemyattackshoot : MonoBehaviour
         {
             if (enemyai.isattacking)
             {
-               animator.Play("TankShoot");
                 shoot();
+                animator.Play("TankShoot");
                 nextactiontime += period;
                 Debug.Log("shooting");
             }   
