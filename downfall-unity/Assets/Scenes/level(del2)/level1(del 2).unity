@@ -1064,8 +1064,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954173396}
   m_LocalRotation: {x: -0, y: -0, z: 0.005977903, w: -0.9999821}
-  m_LocalPosition: {x: 0.423, y: 0.002000004, z: -1.1125442}
-  m_LocalScale: {x: 1.1699117, y: 0.40922356, z: 1}
+  m_LocalPosition: {x: -0.24500006, y: 0.116, z: -1.1125442}
+  m_LocalScale: {x: 0.44, y: 0.44, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1995451716}
@@ -1112,8 +1112,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.28034887, g: 0.42158848, b: 0.7924528, a: 1}
+  m_Sprite: {fileID: 21300000, guid: baff09abf39751f4086efc73e60e9d7b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1635,7 +1635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1295135523}
   m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 10.26, y: -0.895, z: 0}
+  m_LocalPosition: {x: 9.39, y: -0.895, z: 0}
   m_LocalScale: {x: 0.45124847, y: 0.56067866, z: 0.10098942}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2301,7 +2301,7 @@ MonoBehaviour:
   enemy2: {fileID: 1594655729}
   enemy3: {fileID: 253730100}
   period: 1
-  howmanytospawn: 9
+  howmanytospawn: 4
   dificulty1to3: 1
   itistime: 0
   enemys: []
@@ -2467,7 +2467,7 @@ MonoBehaviour:
   enemy3: {fileID: 253730100}
   period: 3
   howmanytospawn: 2
-  dificulty1to3: 3
+  dificulty1to3: 1
   itistime: 0
   enemys: []
 --- !u!1 &1962163666

@@ -6,6 +6,7 @@ public class gettinghitbybullet : MonoBehaviour
 {
     public int health;
     public GameObject thisthing;
+    public int value;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class gettinghitbybullet : MonoBehaviour
         if(health <= 0)
         {
             Destroy(thisthing);
-            points.p++;
+            buyfirerate.coins += value;
         }
     }
     private void OnCollisionEnter2D(Collision2D col)
