@@ -11,6 +11,8 @@ public class enemyai : MonoBehaviour
     public float radiusofattack;
     public float attackspeed = 20f;
     private float nextactiontime = 0;
+    public bool isattacking = false;
+    public bool lenghtbetweenispositive;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,14 @@ public class enemyai : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if((player.position.x - self.position.x) > 0)
+        {
+            lenghtbetweenispositive = true;
+        }
+        else
+        {
+            lenghtbetweenispositive = false;
+        }
         movetowardsplayer();
         lengthbetween = Mathf.Sqrt((player.position.x - self.position.x) * (player.position.x - self.position.x));
     }
@@ -28,9 +38,14 @@ public class enemyai : MonoBehaviour
         if (lengthbetween < radiusofattack)
         {
             attackplayer();
+            isattacking = true;
+            Debug.Log("true");
         }
         else
         {
+            Debug.Log("false");
+
+            isattacking = false;
             self.position = Vector3.MoveTowards(self.position, player.position, speed);
         }
     }
