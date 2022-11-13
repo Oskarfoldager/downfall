@@ -5,18 +5,23 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public int HealthPrize;
+    public int HealthAmount;
     // Start is called before the first frame update
     void Start()
     {
         HealthPrize = 10;
+        HealthAmount = 100;
     }
-
-    // Update is called once per frame
-    void Update()
+    public void HealthVoid()
     {
-        if(Coins.coins>HealthPrize)
+        if(Coins.coins>HealthPrize) 
         {
             Coins.coins -= HealthPrize;
+            HealthPrize += 5;
+            Bounce.lives += HealthAmount;
+            HealthAmount += 20;
+           
         }
     }
+
 }

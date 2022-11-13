@@ -18,7 +18,7 @@ public class HealthBar : MonoBehaviour
         if(woow > 0)
         {
          bar.localScale = new Vector2(Bounce.lives/500, 1f);
-         Debug.Log(Bounce.lives/500);
+         Debug.Log(Bounce.lives/Bounce.lives);
         }else
         {
             SceneManager.LoadScene(2);
