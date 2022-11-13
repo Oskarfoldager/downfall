@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Flyvemaskine : MonoBehaviour
 {
-      public GameObject Flyver;
+     public GameObject Flyver;
      public float speed;
      public bool gothit;
     // Start is called before the first frame update
     void Start()
     {
-       
+        gothit = false;
     }
 
     // Update is called once per frame
@@ -23,6 +23,7 @@ public class Flyvemaskine : MonoBehaviour
     }
    public void OnTriggerEnter2D(Collider2D col)
    {
+        Debug.Log("gothitting");
         gothit = true;
              //chair.transform.Translate (Vector3.right* speed * Time.deltaTime);
    }
