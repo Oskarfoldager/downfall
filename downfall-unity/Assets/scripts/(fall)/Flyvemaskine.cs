@@ -23,8 +23,12 @@ public class Flyvemaskine : MonoBehaviour
     }
    public void OnTriggerEnter2D(Collider2D col)
    {
-        Debug.Log("gothitting");
-        gothit = true;
+        if(col.gameObject.tag == "Player")
+        {
+            Debug.Log("gothitting");
+            gothit = true;
+        }
+
              //chair.transform.Translate (Vector3.right* speed * Time.deltaTime);
    }
                
