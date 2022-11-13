@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class secondpart : MonoBehaviour
+public class sok : MonoBehaviour
 {
+
     public GameObject Flyver;
     public float speed;
     public bool bothit;
@@ -19,7 +20,7 @@ public class secondpart : MonoBehaviour
     {
         if (bothit == true)
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(0);
         }
     }
     public void OnTriggerEnter2D(Collider2D col)

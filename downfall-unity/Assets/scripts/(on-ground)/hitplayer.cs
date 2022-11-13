@@ -10,7 +10,6 @@ public class hitplayer : MonoBehaviour
     public int tankdamage;
     public int shootiedamage;
     public int handdamage;
-    public Text live;
     [SerializeField] private HealthBar healthBar;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +19,6 @@ public class hitplayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        live.text = "hp " + (health);
         if (health <= 0)
         {
             //go to main scene
