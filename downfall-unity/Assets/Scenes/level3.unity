@@ -1089,7 +1089,6 @@ GameObject:
   - component: {fileID: 522068318}
   - component: {fileID: 522068317}
   - component: {fileID: 522068316}
-  - component: {fileID: 522068315}
   m_Layer: 3
   m_Name: trigger
   m_TagString: Untagged
@@ -1097,21 +1096,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &522068315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522068314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8742727bf3c446a47946189be281359e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Flyver: {fileID: 0}
-  speed: 0
-  bothit: 0
 --- !u!114 &522068316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3246,7 +3230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367239691}
   m_LocalRotation: {x: -0, y: -0, z: 0.9999968, w: 0.002543088}
-  m_LocalPosition: {x: 64.9, y: 1292, z: 0}
+  m_LocalPosition: {x: 56, y: -549, z: 0}
   m_LocalScale: {x: 1, y: 1.1714839, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
