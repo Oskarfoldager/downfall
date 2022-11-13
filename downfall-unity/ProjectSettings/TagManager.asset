@@ -10,6 +10,8 @@ TagManager:
   - bulletfromtank
   - bulletfromshootie
   - bulletfromhand
+  - Plane
+  - pp
   layers:
   - Default
   - TransparentFX
@@ -20,7 +22,7 @@ TagManager:
   - enemy
   - ground
   - playerbullet
-  - 
+  - enemybullet
   - 
   - 
   - pp
