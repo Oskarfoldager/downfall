@@ -19,7 +19,7 @@ public class secondpart : MonoBehaviour
     {
         if (bothit == true)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(0);
         }
     }
     public void OnTriggerEnter2D(Collider2D col)

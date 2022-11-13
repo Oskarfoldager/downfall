@@ -36,12 +36,12 @@ public class movement : MonoBehaviour
     {
         rb.AddForce(new Vector2(speed,0),ForceMode2D.Impulse);
       //  rb.MovePosition(new Vector3(rb.position.x + (float)speed, rb.position.y));
-        transform.eulerAngles = new Vector3(0f, 180f, 0f);
+
     }
     public void moveleft()
     {
         rb.AddForce(new Vector2(-speed, 0), ForceMode2D.Impulse);
         //    rb.MovePosition(new Vector3(rb.position.x - (float)speed, rb.position.y));
-        transform.eulerAngles = new Vector3(0f, 0f, 0f);
+
     }
 }
