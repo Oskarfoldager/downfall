@@ -13,9 +13,11 @@ public class spawner : MonoBehaviour
     public int howmanytospawn;
     protected int i = 0;
     public int dificulty1to3;
+    public bool itistime;
     public List<GameObject> enemys = new List<GameObject>() {};
     public void Start()
     {
+        nextactiontime += Time.time + period;
         switch (dificulty1to3)
         {
             case 1:
@@ -28,26 +30,28 @@ public class spawner : MonoBehaviour
                 enemys = new List<GameObject>() { enemy1, enemy2, enemy3 };
                 break;
         }
-
-        
-
-        
-
-        
+    }
+    private void Awake()
+    {
+        itistime = true;
     }
     // Start is called before the first frame update
     void Update()
     {
-        if (Time.time > nextactiontime)
+        if (itistime)
         {
-            if (i < howmanytospawn)
+            if (Time.time > nextactiontime)
             {
-                Debug.Log("Attempting to spawn enemy");
-                GameObject thisproj = Instantiate(enemys[Random.Range(0, enemys.Count)], transform.position, transform.rotation);
-                nextactiontime += period;
-                i++;
+                if (i < howmanytospawn)
+                {
+                    Debug.Log("Attempting to spawn enemy");
+                    GameObject thisproj = Instantiate(enemys[Random.Range(0, enemys.Count)], transform.position, transform.rotation);
+                    nextactiontime += period;
+                    i++;
+                }
             }
         }
+
 
 
 
