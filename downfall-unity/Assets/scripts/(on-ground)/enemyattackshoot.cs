@@ -22,9 +22,11 @@ public class enemyattackshoot : MonoBehaviour
         if (enemyai.lenghtbetweenispositive)
         {
             offset = new Vector3(offset.x, offset.y, offset.z);
+            transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
         else
         {
+            transform.eulerAngles = new Vector3(180f, 0f, 180f);
             offset = new Vector3(offset.x * -1, offset.y, offset.z);
         }
         if (Time.time > nextactiontime)
