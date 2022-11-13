@@ -30,7 +30,7 @@ public class Bounce : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Debug.Log("and it is "+ LastVelocity.y);
-        var speed = LastVelocity.magnitude*.3f;
+        var speed = LastVelocity.magnitude*.1f;
         var direction = Vector3.Reflect(LastVelocity.normalized, collision.contacts[0].normal);
         rb.velocity = direction * Mathf.Max(speed, 0f);
         lives -= Mathf.Sqrt(LastVelocity.y*LastVelocity.y);
